@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from '../../public/images/logo.png'
+import logo fr
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -55,7 +55,7 @@ const Navigation = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-15">
           <div className="text-xl font-bold text-gradient pt-1" style={{ width:"130px",}}>
-            <img  src={logo} alt='logo' style={{ width:"100%" }}/>
+            <img  src="/images/logo.png"  alt='logo' style={{ width:"100%" }}/>
           </div>
           
           <div className="hidden md:flex space-x-8">

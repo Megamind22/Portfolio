@@ -1,7 +1,7 @@
 import { Github, ExternalLink } from 'lucide-react';
-import image1 from "../../public/images/laravi.jpg"
-import image2 from "../../public/images/signs.jpg"
-import image3 from "../../public/images/go.jpg"
+import image1 from "../../public//images/laravi.jpg"
+import image2 from "../../public//images/signs.jpg"
+import image3 from "../../public//images/go.jpg"
 
 const ProjectsSection = () => {
   const projects = [
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       title: "Signs Recognition",
       description:
         "Implemented ANN and SVM for sign image classification. Compared models on testing data with Loss curve, Accuracy, Confusion Matrix, and ROC curve visualizations.",
-      image:image2,
+      image:image1,
       technologies: ["Python", "Scikit-learn", "TensorFlow"],
       github: "https://github.com/Megamind22/ML-Models",
       live: "#",

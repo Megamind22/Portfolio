@@ -10,7 +10,7 @@ const AboutSection = () => {
           <div className="flex justify-center">
             <div className="relative w-82 h-82 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-xl border-4 border-primary/30">
               <img
-                src={about} // غيّر المسار حسب مكان الصورة عندك
+                src="/images/b2.jpg" // غيّر المسار حسب مكان الصورة عندك
                 alt="Mohamed Shaker"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />

@@ -1,6 +1,6 @@
 import { Award, Trophy } from 'lucide-react';
 import b1 from "../../public/images/b1.jpeg"
-import b2 from "../../public/images/b3.jpg"
+import b2 from "../../public/images/b1.jpeg"
 
 const AchievementsSection = () => {
   const achievements = [
@@ -16,7 +16,7 @@ const AchievementsSection = () => {
         • Awarded 1st Place among 80+ research submissions across Egypt
       `,
       type: "award",
-      image: b1
+      image: "/images/b1.jpeg"
     },
     {
       icon: Award,
@@ -27,7 +27,7 @@ const AchievementsSection = () => {
         • LRAVI project won 3rd place among 150+ participating teams across Egypt
       `,
       type: "competition",
-      image: b2
+      image: "/images/b3.jpg"
     }
   ];
 

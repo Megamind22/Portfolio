@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="text-xl font-bold text-gradient pt-1" style={{ width:"150px",}}>
-              <img  src={logo}  alt='logo' style={{ width:"100%" }}/>
+              <img  src=  alt='logo' style={{ width:"100%" }}/>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               AI Engineer specializing in Machine Learning, Deep Learning, and intelligent solutions. 

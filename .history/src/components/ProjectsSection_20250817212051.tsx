@@ -1,8 +1,8 @@
 import { Github, ExternalLink } from 'lucide-react';
-import image1 from "../../public/images/laravi.jpg"
-import image2 from "../../public/images/signs.jpg"
-import image3 from "../../public/images/go.jpg"
 
+import image1 from "../../public//images/laravi.jpg"
+import image2 from "../../public//images/signs.jpg"
+import image3 from "../../public//images/go.jpg"
 const ProjectsSection = () => {
   const projects = [
     {
@@ -17,7 +17,7 @@ const ProjectsSection = () => {
         "TensorFlow",
         "FastAPI",
       ],
-      github: "https://github.com/Megamind22/lstArab100words",
+      github: image2,
       live: "#",
       featured: true,
       metrics: {
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       title: "Signs Recognition",
       description:
         "Implemented ANN and SVM for sign image classification. Compared models on testing data with Loss curve, Accuracy, Confusion Matrix, and ROC curve visualizations.",
-      image:image2,
+      image:im,
       technologies: ["Python", "Scikit-learn", "TensorFlow"],
       github: "https://github.com/Megamind22/ML-Models",
       live: "#",
@@ -45,7 +45,8 @@ const ProjectsSection = () => {
       title: "AI GO Game",
       description:
         "An AI-powered implementation of the strategic board game Go. Built using search algorithms and reinforcement learning concepts.",
-      image:image3,
+      image:
+        "../../public/images/go.jpg",
       technologies: ["Python", "AI Search", "Reinforcement Learning"],
       github: "https://github.com/Megamind22/Ai-GoGamePlayer",
       live: "#",

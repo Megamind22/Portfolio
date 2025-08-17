@@ -1,7 +1,7 @@
 import { Github, ExternalLink } from 'lucide-react';
 import image1 from "../../public/images/laravi.jpg"
-import image2 from "../../public/images/signs.jpg"
-import image3 from "../../public/images/go.jpg"
+import image2 from "../../public//images/signs.jpg"
+import image3 from "../../public//images/go.jpg"
 
 const ProjectsSection = () => {
   const projects = [

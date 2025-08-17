@@ -27,7 +27,7 @@ const AchievementsSection = () => {
         • LRAVI project won 3rd place among 150+ participating teams across Egypt
       `,
       type: "competition",
-      image: b2
+      image: "/images/b3.jpg"
     }
   ];
 

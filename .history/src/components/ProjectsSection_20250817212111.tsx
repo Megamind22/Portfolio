@@ -1,7 +1,7 @@
 import { Github, ExternalLink } from 'lucide-react';
-import image1 from "../../public/images/laravi.jpg"
-import image2 from "../../public/images/signs.jpg"
-import image3 from "../../public/images/go.jpg"
+import image1 from "../../public//images/laravi.jpg"
+import image2 from "../../public//images/signs.jpg"
+import image3 from "../../public//images/go.jpg"
 
 const ProjectsSection = () => {
   const projects = [
@@ -45,7 +45,8 @@ const ProjectsSection = () => {
       title: "AI GO Game",
       description:
         "An AI-powered implementation of the strategic board game Go. Built using search algorithms and reinforcement learning concepts.",
-      image:image3,
+      image:
+        "/images/go.jpg",
       technologies: ["Python", "AI Search", "Reinforcement Learning"],
       github: "https://github.com/Megamind22/Ai-GoGamePlayer",
       live: "#",
