@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/6555aa0a-16cb-40f4-a99c-229c5e6801d0
+**URL**: [https://lovable.dev/projects/6555aa0a-16cb-40f4-a99c-229c5e6801d0](https://megamind22.github.io/Portfolio/)
 
 ## How can I edit this code?
 
